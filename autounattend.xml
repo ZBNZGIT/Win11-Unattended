@@ -399,7 +399,7 @@ Where-Object -Property 'FeatureName' -In -Value @(
   # Create Script shortcut on the desktop
   $desktopPath = "C:\Users\Default\Desktop"
   # Specify the target PowerShell command
-  $command = "powershell.exe -NoProfile -ExecutionPolicy Bypass -Command 'irm https://raw.githubusercontent.com/ZBNZGIT/Win11-Unattended-Scripts/main/Scripts/ScriptsLauncher.ps1 | iex'"
+  $command = "powershell.exe -NoProfile -ExecutionPolicy Bypass -Command 'irm https://raw.githubusercontent.com/ZBNZGIT/Win11-Unattended/main/ScriptsLauncher.ps1 | iex'"
 
   # Specify the path for the shortcut
   $shortcutPath = Join-Path $desktopPath 'Setup Assistant.lnk'
