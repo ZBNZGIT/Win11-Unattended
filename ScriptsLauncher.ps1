@@ -42,7 +42,7 @@ function Run-Script {
         if ($extension -eq ".bat") {
             Start-Process -FilePath "cmd.exe" -ArgumentList "/c $tempFile" -WindowStyle Normal
         } else {
-            Start-Process -FilePath "powershell.exe" -ArgumentList "-ExecutionPolicy Bypass -File $tempFile" -WindowStyle Hidden
+            Start-Process -FilePath "powershell.exe" -ArgumentList "-ExecutionPolicy Bypass -File $tempFile" -WindowStyle Normal
         }
     }
     catch {
