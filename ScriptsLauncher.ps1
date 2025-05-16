@@ -2,12 +2,11 @@ $Host.UI.RawUI.WindowTitle = "Scripts Launcher"
 $Host.UI.RawUI.WindowSize = New-Object System.Management.Automation.Host.Size(54, 6)
 
 $scripts = @{
-    "Install Apps" = "https://raw.githubusercontent.com/ZBNZGIT/Win11-Unattended-Scripts/main/Scripts/AppsInstallerChocolatey.bat"
-    "Remove Edge" = "https://raw.githubusercontent.com/ZBNZGIT/Win11-Unattended-Scripts/main/Scripts/RemoveEdge.ps1"
+    "Install WinHance" = "https://raw.githubusercontent.com/ZBNZGIT/Win11-Unattended-Scripts/main/Scripts/Install-WinHance.ps1"
     "Activate Windows" = "https://get.activated.win"
 }
 
-$scriptNames = @("Install Apps", "Remove Edge", "Activate Windows")
+$scriptNames = @("Install WinHance", "Activate Windows")
 $index = 0
 $confirm = $false
 
