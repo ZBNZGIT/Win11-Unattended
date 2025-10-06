@@ -218,11 +218,12 @@ exit
 	'Microsoft.Wallet';
 	'Microsoft.BingWeather';
 	'Microsoft.WindowsTerminal';
-	'Microsoft.Xbox.TCUI', 'Microsoft.XboxApp',
-    'Microsoft.XboxGameOverlay', 
-	'Microsoft.XboxGamingOverlay', 
+	'Microsoft.Xbox.TCUI',
+	'Microsoft.XboxApp',
+	'Microsoft.XboxGameOverlay',
+	'Microsoft.XboxGamingOverlay',
 	'Microsoft.XboxIdentityProvider',
-    'Microsoft.XboxSpeechToTextOverlay', 
+	'Microsoft.XboxSpeechToTextOverlay',
 	'Microsoft.GamingApp',
 	'Microsoft.YourPhone';
 	'Microsoft.ZuneMusic';
