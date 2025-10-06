@@ -18,3 +18,5 @@ This project eliminates setup prompts, removes bloat, disables Microsoft Edge, a
 ✔️ **Disables network during setup, re-enables at first login**  
 ✔️ **Applies machine and user tweaks via embedded scripts**  
 ✔️ **Post-install script creates a desktop shortcut to install WinHance**
+
+<img width="1538" height="955" alt="UnattendDesktop" src="https://github.com/user-attachments/assets/8ea5be83-f925-4682-b344-7dca48041d25" />
