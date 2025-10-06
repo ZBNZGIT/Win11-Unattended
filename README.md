@@ -4,7 +4,7 @@ A fully automated, Windows 11 installation using a single `autounattend.xml` fil
 
 This project eliminates setup prompts, removes bloat, disables Microsoft Edge, applies tweaks, sets wallpaper, and configures both machine-wide and user-level post-install tasks — all embedded within the XML file itself.
 
-Skip password setup during initial installation. The system will automatically restart once the desktop is reached.
+> Skip password setup during initial installation. The system will automatically restart once the desktop is reached.
 
 > ⚠️ Power users only — modifies system-level features. Test in a VM before using on physical hardware.
 
