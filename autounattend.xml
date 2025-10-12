@@ -990,6 +990,9 @@ reg.exe delete "HKEY_CLASSES_ROOT\Drive\shell\pintohome" /f >nul 2>&1
 reg.exe delete "HKEY_CLASSES_ROOT\Folder\shell\pintohome" /f >nul 2>&1
 reg.exe delete "HKEY_CLASSES_ROOT\Network\shell\pintohome" /f >nul 2>&1
 
+:: Disables Print Screen Key For Snipping Tool
+reg.exe add "HKCU\Control Panel\Keyboard" /v PrintScreenKeyForSnippingEnabled /t REG_DWORD /d 0 /f >nul 2>&1
+	
 :: Removes Store Banner in Notepad
 reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Notepad" /v ShowStoreBanner /t REG_DWORD /d 0 /f >nul 2>&1
 
