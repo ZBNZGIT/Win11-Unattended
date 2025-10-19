@@ -1163,9 +1163,9 @@ powershell.exe -NoProfile -Command "Get-AppxPackage *CoPilot* -AllUsers | Remove
 
 :: Convert Binary To Wallpaper & Set Wallpaper
 IF EXIST "C:\Windows\Temp\image.txt" (
-    certutil -decode "C:\Windows\Temp\image.txt" "C:\Windows\Web\Wallpaper\Topography.jpg"
+    certutil -decode "C:\Windows\Temp\image.txt" "C:\Windows\Web\Wallpaper\Background.jpg"
 )
-reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "C:\Windows\Web\Wallpaper\Topography.jpg" /f
+reg add "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d "C:\Windows\Web\Wallpaper\Background.jpg" /f
 
 :: Delete Windows.old Folder
 IF EXIST "C:\Windows.old\" RD /S /Q "C:\Windows.old"
