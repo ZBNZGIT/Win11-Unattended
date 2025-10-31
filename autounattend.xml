@@ -990,6 +990,9 @@ reg.exe delete "HKEY_CLASSES_ROOT\Drive\shell\pintohome" /f >nul 2>&1
 reg.exe delete "HKEY_CLASSES_ROOT\Folder\shell\pintohome" /f >nul 2>&1
 reg.exe delete "HKEY_CLASSES_ROOT\Network\shell\pintohome" /f >nul 2>&1
 
+:: Sets show tabs from apps to do not show tabs
+reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v MultiTaskingAltTabFilter /t REG_DWORD /d 3 /f
+	
 :: Disables Print Screen Key For Snipping Tool
 reg.exe add "HKCU\Control Panel\Keyboard" /v PrintScreenKeyForSnippingEnabled /t REG_DWORD /d 0 /f >nul 2>&1
 	
